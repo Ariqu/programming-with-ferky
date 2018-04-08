@@ -19,38 +19,41 @@ a:hover {
 
 }
 body {
-  animation: animacja 12s infinite;
+    animation: pulse 10s infinite;
+	animation-iteration-count:100;
+
 
 }
-@keyframes animacja
-0% {
-background-color: #001F3F;
-}
-20% {
-background-color: #00ff00;
-}
-30% {
-background-color: #ccff99;
-}
-40% {
-background-color: #00ccff;
-}
-50% {
-background-color: #993399;
-}
-60% {
-background-color: #FF4136;
-}
-70% {
-background-color: #006666;
-}
-80% {
-background-color: #cc00cc;
-}
-90% {
-background-color: #ff9933;
-}
-100% {
-background-color: #000099;
-}
+@keyframes pulse {
+
+	0% {
+    background-color: #001F3F;
+    }
+    20% {
+    background-color: #00ff00;
+	}
+	30% {
+    background-color: #ccff99;
+	}
+	40% {
+    background-color: #00ccff;
+	}
+	50% {
+    background-color: #993399;
+	}
+  60% {
+    background-color: #FF4136;
+  }
+    70% {
+    background-color: #006666;
+  }
+  	80% {
+    background-color: #cc00cc;
+	}
+	90% {
+    background-color: #ff9933;
+	}
+	100% {
+    background-color: #000099;
+	}
 }
