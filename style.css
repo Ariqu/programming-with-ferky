@@ -11,3 +11,22 @@ p:hover {
   width: 200px;
   height: 200px;
 }
+a:hover {
+  border-style: solid;
+  background-color: grey;
+  border-color: green;
+
+
+}
+body {
+  animation: animacja 12s infinite;
+
+}
+@keyframes animacja
+      {
+        0% { background-color:white; }
+        25% { background-color:gold; }
+        50% { background-color:red; }
+        75% { background-color:green; }
+        100% { background-color:white; }
+      }
