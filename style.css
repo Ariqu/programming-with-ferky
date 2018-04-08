@@ -1,0 +1,13 @@
+body {
+  background-color: lightblue;
+  font-size: 44px;
+  font-family: "arial",againts, sans-serif;
+}
+p:hover {
+  background-color: red;
+}
+
+#button {
+  width: 200px;
+  height: 200px;
+}
