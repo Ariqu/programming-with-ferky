@@ -1,24 +1,4 @@
 body {
-  background-color: lightblue;
-  font-size: 44px;
-  font-family: "arial",againts, sans-serif;
-}
-p:hover {
-  background-color: red;
-}
-
-#button {
-  width: 200px;
-  height: 200px;
-}
-a:hover {
-  border-style: solid;
-  background-color: grey;
-  border-color: green;
-
-
-}
-body {
     animation: pulse 10s infinite;
 	animation-iteration-count:100;
 
@@ -56,4 +36,39 @@ body {
 	100% {
     background-color: #000099;
 	}
+}
+
+
+
+
+
+
+a:hover {
+  background: green;
+  border: 3px groove red;
+  font-family: "arial" , sans-serif , againts;
+
+}
+a {
+  background-color: grey;
+  border: 1px groove red;
+}
+button {
+  height: 50px;
+  height: 25px;
+}
+#p-tag-clickable {
+  position: absolute;
+  top: 20px;
+  left: 75px;
+  border: 4px solid green;
+
+}
+#b-tag-clickable {
+  border: 1px groove black;
+  position: absolute;
+  top: 350px;
+  left: 720px;
+  font-size: 500%;
+
 }

@@ -1,0 +1,109 @@
+body {
+    animation: pulse 25s infinite;
+	animation-iteration-count:1000;
+
+
+}
+@keyframes pulse {
+
+	0% {
+    background-color: #001F3F;
+    }
+    20% {
+    background-color: #00ff00;
+	}
+	30% {
+    background-color: #ccff99;
+	}
+	40% {
+    background-color: #00ccff;
+	}
+	50% {
+    background-color: #993399;
+	}
+  60% {
+    background-color: #FF4136;
+  }
+    70% {
+    background-color: #006666;
+  }
+  	80% {
+    background-color: #cc00cc;
+	}
+	90% {
+    background-color: #ff9933;
+	}
+	100% {
+    background-color: #000099;
+	}
+}
+
+article:hover {
+  -moz-transition:color .2s ease-in;
+    -o-transition:color .2s ease-in;
+    -webkit-transition:color .2s ease-in;
+    background:#f5f5f5;padding:20px;
+}
+
+.clicker:hover{
+    background:#eee;
+}
+
+
+
+
+}
+.myHeader {
+  border: 3px groove yellow;
+  display: flex;
+
+
+}
+#rainbow-animate {
+
+  animation: pulse 15s infinite;
+  animation-iteration-count:1000;
+  height: 100px;
+  width: 100px;
+  border: 5px groove black;
+  outline-style: dotted;
+  outline-color: black;
+
+  @keyframes rainbow {
+
+	0% {
+		background-color: lime;
+	}
+	10% {
+		background-color: purple;
+	}
+	20% {
+		background-color: blue;
+	}
+	30% {
+		background-color: green;
+	}
+	40% {
+		background-color: lightblue;
+	}
+	50% {
+		background-color: gold;
+	}
+	60% {
+		background-color: pink;
+	}
+	70% {
+		background-color: grey;
+	}
+	80% {
+		background-color: lightgreen;
+	}
+	90% {
+		background-color: lightpink;
+	}
+	100% {
+		background-color: lime;
+	}
+
+}
+}
