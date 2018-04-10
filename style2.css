@@ -107,3 +107,62 @@ article:hover {
 
 }
 }
+#button2 {
+  border: 2px groove black;
+  background-color: orange;
+  height: 50px;
+  width: 125px;
+}
+#button2:hover {
+  border: 3px  groove black;
+  background-color: red;
+  animation: pulse 15s infinite;
+  animation-iteration-count:1000;
+  height: 50px;
+  width: 125px;
+  @keyframes button2 {
+
+  0% {
+    background-color: grey;
+  }
+  10% {
+    background-color: black;
+  }
+  20% {
+    background-color: blue;
+  }
+  30% {
+    background-color: pink;
+  }
+  40% {
+    background-color: purple;
+  }
+  50% {
+    background-color: green;
+  }
+  60% {
+    background-color: lightgreen;
+  }
+  70% {
+    background-color: pink;
+  }
+  80% {
+    background-color: yellow;
+  }
+  90% {
+    background-color: lightpink;
+  }
+  100% {
+    background-color: lime;
+  }
+
+}
+
+}
+#button2:active  {
+  border: 1px solid yellow;
+  background-color: red;
+  height: 50px;
+  width: 125px;
+
+}

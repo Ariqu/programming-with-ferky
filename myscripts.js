@@ -13,3 +13,7 @@
   function ne(o){
      if(document.getElementById(o).style.display=='') document.getElementById(o).style.display = 'none';
      else document.getElementById(o).style.display='';
+}
+{
+alert("HELLO!!")
+}
