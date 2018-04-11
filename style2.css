@@ -166,3 +166,16 @@ article:hover {
   width: 125px;
 
 }
+#box-button-download {
+  background-color: orange
+  border: 2px groove black
+  height: 50px;
+  width: 125px;
+
+}
+#box-button-download:hover {
+  background-color: yellow;
+  border: 4px groove black;
+  height: 50px;
+  width: 125px;
+}
