@@ -1,16 +1,15 @@
 
-
-  var element = document.getElementById("p-tag-clickable")
-
-
-  if (element) {
-    element.addEventListener("click", myFunction);
--
-
-  function myFunction() {
-    console.log('siema to kuba wy chore dziki');
+var element = document.getElementById("button-tag-clickable")
+if (window.console) {
+  function load() {
+    console.log('CONSOLE TEXT> PRZYKLADOWY TEKST!')
   }
-  function ne(o){
-     if(document.getElementById(o).style.display=='') document.getElementById(o).style.display = 'none';
-     else document.getElementById(o).style.display='';
 }
+$(document).ready(function(){
+    $("#btn-animate1").click(function(){
+        $("#box").animate({height: "300px"});
+    });
+    $("#btn-animate2").click(function(){
+        $("#box").animate({height: "100px"});
+    });
+});

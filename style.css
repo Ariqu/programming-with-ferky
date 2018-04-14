@@ -48,25 +48,22 @@ body {
 
 
 
-a:hover {
-  background: green;
-  border: 3px groove red;
-  font-family: "arial" , sans-serif , againts;
 
-}
-a {
-  background-color: grey;
-  border: 1px groove red;
-}
+
 button {
   height: 50px;
   height: 25px;
+  color: white;
+  text-shadow: 1px 1px 2px green, 0 0 25px darkblue, 0 0 5px darkgreen;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 #tag-clickable {
   position: absolute;
   top: 20px;
   left: 75px;
   border: 4px solid green;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 
 }
 #b-tag-clickable {
@@ -129,5 +126,17 @@ button {
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 
+}
+#untitle-text {
+  position: relative;
+  top: 450px;
+  left: 800px;
+
+}
+#btn-login-label {
+  position: realtive;
+  top: 320px;
+  left: 800px;
 }
