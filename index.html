@@ -1,78 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="pl-PL" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>INDEX TITLE</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="myscripts.js">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="myscripts.js"</script>
-
-
-
-    </script>
+    <title>TEST</title>
+        <script src="myscripts.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <div class="conteiner">
-      <p id="tag-clickable">Kliknij zbadaj i otwórz konsole!</p></div>
-        <button type="button" name="button" id="p-tag-clickable" onclick="load();">kliknij!</button>
-        <a href="animacje.html"
-        <button type="button" name="button" id="button1">ZOBACZ ANIMACJE</button></a>
-        <b align="middle" id="b-tag-clickable">WELCOME!</b>
-        <div id="untitle-text">
-        <h3>Zobaczysz m.in:</h3>
-        <li>ANIMACJE</li>
-          <li>KODY</li>
-            </div>
+    <div id="button-tag-clickable">
+<button type="button" name="button-tag-clickable"></button>
+</div>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Zobacz godzine!</button>
+<div id="day">
+<p id="demo"></p>
+<p id="demo"></p>
+<script>
+var day;
+switch (new Date().getDay()) {
+    case 0:
+        day = "Niedziela";
+        break;
+    case 1:
+        day = "Poniedzialek";
+        break;
+    case 2:
+        day = "Wtorek";
+        break;
+    case 3:
+        day = "Sroda";
+        break;
+    case 4:
+        day = "Czwartek";
+        break;
+    case 5:
+        day = "Piatek";
+        break;
+    case  6:
+        day = "Sobota";
+}
+document.getElementById("demo").innerHTML = "Dzisiaj mamy: " + day;
+</script>
+</div>
+<div id="btn-click">
+  <button type="button" name="button">KLIKNIJ I ZOBACZ KONSOLE!</button>
 
-              <!---button--->
-              <div id="btn-login-label">
-                <a href="login-label.html">
-                <button type="button" name="button">ZALOGUJ SIE</button>
-              </a>
-
-
-          <!-- MENU  -->
-
-
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-
-          <div id="menu-webpage">
-            <a href="index.html" class="active">STRONA GLOWNA!</a>
-            <a href="#">NAZWA-1</a>
-            <a href="#">NAZWA-2</a>
-            <a href="#">NAZWA-3</a>
-            <a href="#">NAZWA-4</a>
-          </div>
-          <div id="unline-menu-text">
-            <h2>EXAMPLE MENU.</h2>
-          </div>
-
-
-          </div>
-
-            <div id="text-info">
-              <h2><a href="omnie.html">O MNIE</h2></a>
-            </div>
-            <button id="btn-animate1">ZOBACZ ANIMACJE</button>
-            <button id="btn-animate2">UKRYJ ANIMACJE</button>
-
-            <div id="box" style="background:#98bf21;height:100px;width:100px;margin:6px;"></div>
-
-
-
-
-
-
-
-
-
-
-    </div>
   </body>
-  <body>
-    <div class="box-tag"></div>
-    </body>
-
 </html>

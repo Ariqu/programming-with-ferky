@@ -1,15 +1,7 @@
 
-var element = document.getElementById("button-tag-clickable")
+var element = document.getElementById("btn-click")
 if (window.console) {
-  function load() {
-    console.log('CONSOLE TEXT> PRZYKLADOWY TEKST!')
+  function.load() {
+    console log('siemka! :)')
   }
 }
-$(document).ready(function(){
-    $("#btn-animate1").click(function(){
-        $("#box").animate({height: "300px"});
-    });
-    $("#btn-animate2").click(function(){
-        $("#box").animate({height: "100px"});
-    });
-});
