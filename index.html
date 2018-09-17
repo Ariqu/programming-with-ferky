@@ -2,11 +2,48 @@
 <html lang="pl">
 <head>
 </head>
-</body>
+<body onload="odliczanie();">
 <div id="formularz"></div>
+<div id="zegar"></div>
 <div id="test"></div>
 <button id="test" onclick="myFunction()">View</button>
+<button style="margin-top: -45px; border: 2px solid red;" id="test" onclick="location.reload();">Refresh</button>
 
+<script>
+
+function odliczanie()
+{
+
+
+      var dzisiaj = new Date();
+
+      var dzien = dzisiaj.getDate();
+	if (dzien<10) dzien = "0"+dzien;
+
+      var miesiac = dzisiaj.getMonth()+1;
+	if (miesiac<10) miesiac = "0"+miesiac;
+
+      var rok = dzisiaj.getFullYear();
+
+      var godzina = dzisiaj.getHours();
+	if (godzina<10) godzina = "0"+minuta;
+
+      var minuta = dzisiaj.getMinutes();
+	if (minuta<10) minuta = "0"+minuta;
+
+      var sekunda = dzisiaj.getSeconds();
+      if (sekunda<10) sekunda = "0"+sekunda;
+
+
+      document.getElementById("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok+"<br>"+godzina+":"+minuta+":"+sekunda;
+	  
+
+      setTimeout("odliczanie()",1000);
+
+
+}
+
+      </script>
 
 <script>
 
@@ -60,7 +97,8 @@ var nazwa = "WITAJCIE XD";
 
 
 
-
+<div id="button-in-right-page">
+<button id="test" onclick="console.log(5 + 6);">Console-text</button></div>
 
 
 
@@ -93,4 +131,17 @@ button {
 body {
 
 margin: 0px !important;
+}
+#button-in-right-page {
+margin-left: 1200px;
+margin-top: -900px;
+}
+#zegar {
+	margin-top: -100px;
+	color: white;
+	margin-left: 600px;
+	font-family: Arial;
+	font-size: 30px;
+	border-bottom: 2px solid red;
+	width: 150px;
 </style>
